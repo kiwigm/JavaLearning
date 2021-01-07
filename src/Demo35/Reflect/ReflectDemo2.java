@@ -1,6 +1,5 @@
-package cn.itcast.reflect;
+package Demo35.Reflect;
 
-import cn.itcast.domain.Person;
 
 import java.lang.reflect.Field;
 
@@ -10,11 +9,11 @@ public class ReflectDemo2 {
      Class对象功能：
          * 获取功能：
          1. 获取成员变量们
-             * Field[] getFields()
-             * Field getField(String name)
+             * Field[] getFields() 获取所有public修饰成员变量
+             * Field getField(String name) 按名称获取public修饰成员变量
 
-             * Field[] getDeclaredFields()
-             * Field getDeclaredField(String name)
+             * Field[] getDeclaredFields() 获取所有成员变量
+             * Field getDeclaredField(String name) 根据名称获取变量，不考虑修饰符
          2. 获取构造方法们
              * Constructor<?>[] getConstructors()
              * Constructor<T> getConstructor(类<?>... parameterTypes)

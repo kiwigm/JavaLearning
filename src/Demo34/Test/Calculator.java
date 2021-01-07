@@ -1,2 +1,7 @@
-package Demo34.Test;public class Calculator {
+package Demo34.Test;
+
+public class Calculator {
+    public int Add(int a, int b) {
+        return a + b;
+    }
 }

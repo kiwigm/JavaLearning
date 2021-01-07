@@ -1,7 +1,4 @@
-package cn.itcast.reflect;
-
-import cn.itcast.domain.Person;
-import cn.itcast.domain.Student;
+package Demo35.Reflect;
 
 import java.io.IOException;
 import java.io.InputStream;

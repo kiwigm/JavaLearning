@@ -1,6 +1,5 @@
-package cn.itcast.reflect;
+package Demo35.Reflect;
 
-import cn.itcast.domain.Person;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;

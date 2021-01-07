@@ -1,4 +1,4 @@
-package cn.itcast.domain;
+package Demo35.Reflect;
 
 public class Person {
     private String name;

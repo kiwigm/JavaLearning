@@ -1,7 +1,4 @@
-package cn.itcast.reflect;
-
-import cn.itcast.domain.Person;
-import cn.itcast.domain.Student;
+package Demo35.Reflect;
 
 public class ReflectDemo1 {
 
@@ -16,7 +13,7 @@ public class ReflectDemo1 {
     public static void main(String[] args) throws Exception {
 
         //1.Class.forName("全类名")
-        Class cls1 = Class.forName("cn.itcast.domain.Person");
+        Class cls1 = Class.forName("Demo35.Reflect.Person");
         System.out.println(cls1);
         //2.类名.class
         Class cls2 = Person.class;
@@ -30,9 +27,6 @@ public class ReflectDemo1 {
         System.out.println(cls1 == cls2);//true
         System.out.println(cls1 == cls3);//true
 
-
-        Class c = Student.class;
-        System.out.println(c == cls1);
 
 
     }
